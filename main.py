@@ -3,11 +3,11 @@ import csv
 
 def convert_csv_to_chp(input_file, output_file, delimiter=';'):
     """
-    Функция для преобразования CSV файла в CHP файл.
+    This function processes a CSV file and writes the processed data to another CSV file.
 
-    :param input_file: путь к входному CSV файлу
-    :param output_file: путь к выходному CHP файлу
-    :param delimiter: разделитель полей в CSV файле, по умолчанию ';'
+    :param input_file: The path to the input CSV file.
+    :param output_file: The path to the output CHP file.
+    :param delimiter: The delimiter used in the CSV files.
     :return: None
     """
     with open(input_file, mode='r', encoding='utf-8') as infile:
